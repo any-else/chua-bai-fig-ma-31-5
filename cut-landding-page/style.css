@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: auto;
+  max-width: 1440px;
+  width: 100%;
+
+  background-color: #000000;
+  color: white;
+
+  margin: 0 auto;
+}
+
+header {
+  height: 108px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2{
+  margin-left: 135px;
+ 
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+
+  column-gap: 40px;
+  margin-right: 135px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+header ul li:last-child {
+  padding: 10px 25px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 56px;
+}
+header ul li:last-child a {
+  color: rgba(255, 214, 0, 1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.06);
+    margin: 0 135px;
+}
+
+main {
+  margin-top: 60px;
+}
+/* main */
+.first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-title {
+  margin-left: 135px;
+ width: 570px;
+}
+
+.first-title h2 {
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 96px;
+} 
+
+.first-title p {
+  font-size:  24px;
+  font-weight: 400;
+  line-height: 38px;
+  color: rgba(255, 255, 255, 0.8);
+
+  margin: 24px 0 48px 0;
+}
+
+.first-title .title-link {
+  display: flex;
+  column-gap: 16px;
+}
+
+.first-title .title-link button {
+  height: 62px;
+  border-radius: 100px;
+  width: 227px;
+  outline: none;
+  border: none;
+}
+.first-title .title-link button:nth-child(1) {
+  background-color: rgba(255, 214, 0, 1);
+  color: black;
+}
+
+.first-title .title-link button:nth-child(2) {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: rgba(255, 214, 0, 1);
+}
+
+.first-canvas {
+  position: relative;
+  width: 469px;
+  height: 504px;
+  background-color: black;
+  margin-right: 135px;
+}
+
+.canvas-gril,
+.canvas-boy {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 814px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.canvas-gril img,
+.canvas-boy img{
+  position: absolute;
+  width: 298px;
+  height: 330px;
+
+  object-fit: cover;
+
+  bottom: 0;
+}
+
+.canvas-gril {
+  top: 0;
+  left: 0;
+}
+
+.canvas-boy {
+  right: 0;
+  bottom: 0;
+}
+
+.mes-1 {
+  position: absolute;
+  top: 25px;
+  left: 220px;
+  width: 195px;
+  height: 61px;
+}
+
+.mes-2 {
+  position: absolute;
+  bottom: 80px;
+  left: 22px;
+    width: 195px;
+  height: 61px;
+}
+
+.canvans-nft {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100px;
+  height: 100px;
+
+  background-image: url('./Star\ 1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.canvans-nft p {
+  position: absolute;
+  color: black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
